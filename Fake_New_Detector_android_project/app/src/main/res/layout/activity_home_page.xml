@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Page">
+
+    <Button
+        android:id="@+id/predic_URL"
+        android:layout_width="220dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="592dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#B8BCBD"
+        android:text="Predict using URL"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+        app:icon="@drawable/ic_icons8_shorten_urls"
+        app:iconGravity="end"
+        app:iconTint="@color/white"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/trending_searches"
+        android:layout_width="194dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/round_btn"
+        android:isScrollContainer="false"
+        android:text="Trending Searches"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+        app:icon="@drawable/icons8_trending"
+        app:iconGravity="end"
+        app:iconTint="@color/white"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/predic_text"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/round_btn"
+        android:text="Predict using text"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+        app:icon="@drawable/icon_txt"
+        app:iconGravity="end"
+        app:iconTint="@color/white"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="96dp"
+        android:background="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home_back" />
+</androidx.constraintlayout.widget.ConstraintLayout>

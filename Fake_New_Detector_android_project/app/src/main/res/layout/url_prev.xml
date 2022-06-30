@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/url_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.nguyencse.URLEmbeddedView
+        android:id="@+id/url_uev1"
+        android:layout_width="412dp"
+        android:layout_height="168dp"
+        android:visibility="visible"
+        app:description="Description"
+        app:favor="@drawable/ic_url"
+        app:host="avc.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
+        app:thumbnail="@drawable/ic_url"
+        app:title="title" >
+
+        <TextView
+            android:id="@+id/detecting_times"
+            android:layout_width="300dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_marginBottom="1dp"
+            android:background="#121010"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@android:drawable/alert_dark_frame" />
+
+    </com.nguyencse.URLEmbeddedView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
